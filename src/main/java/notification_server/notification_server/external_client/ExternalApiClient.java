@@ -6,8 +6,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-@FeignClient(name = "externalApi", url = "https://api.imiconnect.in/resources/v1/messaging")
+@FeignClient(name = "externalApi", url = "URL")
 public interface ExternalApiClient {
-    @PostMapping(headers = "key = 93ceffda-5941-11ea-9da9-025282c394f2")
+    @PostMapping(headers = "key = KEY")
     ResponseEntity<String> sendData(@RequestBody SMSBody body);
 }
