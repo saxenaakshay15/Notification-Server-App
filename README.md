@@ -45,6 +45,3 @@ This project implements a Notification Service capable of sending SMS messages t
 - **Logging**: Log4j 
 - **Unit Testing**: JUnit
 
-## Important Note
-
-This project is private and should not be shared publicly on GitHub. Share it with collaborators separately on GitHub.
